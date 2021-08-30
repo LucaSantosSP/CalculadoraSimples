@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 10rem;
+}
+
+div{
+    border: solid black 2px;
+    border-radius: 6px;
+    margin: 10% auto;
+    width: 25rem;
+}
+
+h1{
+    font-size: 1.6rem;
+    margin: 10px 80px;
+}
+
+.spc{
+    margin-left: 70px;
+}
+
+button{
+    margin: 5px 0 5px 170px;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
