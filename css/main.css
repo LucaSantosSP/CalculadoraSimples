@@ -11,20 +11,25 @@ div{
     border: solid black 2px;
     border-radius: 6px;
     margin: 10% auto;
-    width: 25rem;
+    width: 13rem;
 }
 
 h1{
-    font-size: 1.6rem;
-    margin: 10px 80px;
+    font-size: 20px;
+    margin: 10px 50px;
 }
 
-.spc{
-    margin-left: 70px;
+td input{
+    padding: 10px;
 }
 
-button{
-    margin: 5px 0 5px 170px;
-    padding: 5px 10px;
-    border-radius: 4px;
+#resultado{
+    border: black solid 1px;
+    padding: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+table{
+    margin: 10px 0 20px 35px;
 }

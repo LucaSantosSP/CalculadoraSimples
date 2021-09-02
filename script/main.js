@@ -1,19 +1,15 @@
 function calcular(){
-    var vl1 = parseInt(document.getElementById("vl1").value);
-    var vl2 = parseInt(document.getElementById("vl2").value);
-    var operador = document.getElementById("operador").value;
-    var result = document.getElementById("result");
+    var resultado = document.getElementById('resultado').innerHTML;
+    if (resultado){
+        document.getElementById('resultado').innerHTML = eval(resultado);
+    }
+}
 
-    if (operador == "+"){
-        result.value = vl1 + vl2;
-    }
-    else if(operador == "-"){
-        result.value = vl1 - vl2;
-    }
-    else if(operador == "*"){
-        result.value = vl1 * vl2;
-    }
-    else{
-        result.value = vl1 / vl2;
-    }
+function addNumber(number){
+    var numero = document.getElementById('resultado').innerHTML;
+    document.getElementById("resultado").innerHTML = numero + number;
+}
+
+function apagar(){
+    document.getElementById('resultado').innerHTML = "";
 }

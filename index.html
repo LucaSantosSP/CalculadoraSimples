@@ -10,23 +10,35 @@
 </head>
 <body>
     <div>
-        <h1>Calculadora Simples</h1>
-        <label for="vl1" class="spc">
-            1º Valor: <input type="text" size="2" id="vl1" name="vl1">
-        </label>
-        <select name="operador" id="operador">
-            <option value="+">+</option>
-            <option value="-">-</option>
-            <option value="*">×</option>
-            <option value="/">÷</option>
-        </select>
-        <label for="vl2">
-            2º Valor: <input type="text" size="2" name="vl2" id="vl2"><br>
-        </label>
-        <label for="result" class="spc">
-            Resultado: <input type="text" id="result" name="result"> <br>
-        </label>
-        <button onclick="calcular()">Calcular</button>
+        <h1>Calculadora</h1>
+        <p id="resultado"></p>
+        <table>
+            <tr>
+                <td><input onclick="addNumber('7')" type="button" id="i7" name="n7" value="7"></td>
+                <td><input onclick="addNumber('8')" type="button" id="i8" name="n8" value="8"></td>
+                <td><input onclick="addNumber('9')" type="button" id="i9" name="n9" value="9"></td>
+                <td><input onclick="addNumber('/')" type="button" id="i/" name="n/" value="/"></td>
+            </tr>
+            <tr>
+                <td><input onclick="addNumber('4')" type="button" id="i4" name="n4" value="4"></td>
+                <td><input onclick="addNumber('5')" type="button" id="i5" name="n5" value="5"></td>
+                <td><input onclick="addNumber('6')" type="button" id="i6" name="n6" value="6"></td>
+                <td><input onclick="addNumber('*')" type="button" id="i*" name="n*" value="*"></td>
+            </tr>
+            <tr>
+                <td><input onclick="addNumber('1')" type="button" id="i1" name="n1" value="1"></td>
+                <td><input onclick="addNumber('2')" type="button" id="i2" name="n2" value="2"></td>
+                <td><input onclick="addNumber('3')" type="button" id="i3" name="n3" value="3"></td>
+                <td><input onclick="apagar('')" type="button" id="ic" name="nc" value="c"></td>
+            </tr>
+            <tr>
+                <td><input onclick="addNumber('0')" type="button" id="i0" name="n0" value="0"></td>
+                <td><input onclick="addNumber('-')" type="button" id="i-" name="n-" value="-"></td>
+                <td><input onclick="addNumber('+')" type="button" id="i+" name="n+" value="+"></td>
+                <td><input onclick="calcular()" type="button" id="i=" name="n=" value="="></td>
+            </tr>
+        </table>
+
     </div>
 </body>
 </html>
