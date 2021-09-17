@@ -4,7 +4,9 @@
 }
 
 body{
-    height: 10rem;
+    height: 46.5rem;
+    background: linear-gradient(to right top, #00d9ff, #4fd6ff);
+    color: white;
 }
 
 div{
@@ -12,22 +14,27 @@ div{
     border-radius: 6px;
     margin: 10% auto;
     width: 13rem;
+    background: linear-gradient(to right top, #6b6b6b, #4b5152);
 }
 
 h1{
     font-size: 20px;
     margin: 10px 50px;
+    color: rgb(255, 255, 255);
 }
 
 td input{
     padding: 10px;
+    border-radius: 6px;
 }
 
 #resultado{
     border: black solid 1px;
+    border-radius: 6px;
     padding: 15px;
     margin-left: 35px;
     margin-right: 35px;
+    background-color: rgb(108, 131, 134);
 }
 
 table{
